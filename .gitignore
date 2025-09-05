@@ -1,13 +1,31 @@
-.venv/
+# OS / editor
+.DS_Store
+.vscode/
 
-.venv/
-.ruff_cache/
+# Python
 __pycache__/
+*.py[cod]
+.venv/
+.env
+*.env
+
+# Notebooks
 .ipynb_checkpoints/
 
-# ignore virtualenv & caches
-.venv/
-.venv/**
+# Tool caches
 .ruff_cache/
-__pycache__/
-.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# Coverage / reports
+.coverage
+coverage.xml
+htmlcov/
+
+# Logs
+*.log
+
+# Keep repo light
+data/raw/
+data/processed/
+
