@@ -1,0 +1,6 @@
+market: {asset: , date: , rate source: , dividends: }
+surface: {param_bounds: , regularisation: , no_arb_checks: true}
+heston: {init_guess: , bounds: , weights: }
+pde: {scheme: CN, grid_points: , time_steps: , rannacher: true}
+mc: {paths: , steps: , antithetic: true, control_variate: true, seed: 12345}
+hedging: {freq: , tc_bps: , greeks_source: }
